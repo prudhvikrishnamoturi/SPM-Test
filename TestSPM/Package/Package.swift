@@ -4,33 +4,25 @@
 import PackageDescription
 
 let package = Package(
-    name: "Dependencies",
-    platforms: [.macOS(.v10_12),
-                .iOS(.v10),
-                .tvOS(.v10),
-                .watchOS(.v3)],
+    name: "Package",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "Dependencies",
-            targets: ["Dependencies"])
+            name: "Package",
+            targets: ["Package"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/prudhvikrishnamoturi/RestManager", from: "0.1.0"),
+        .package(url: "https://github.com/prudhvikrishnamoturi/RestManager"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "Dependencies",
-            dependencies: ["RestManager"],
-            exclude: ["Info.plist"]
-            ),
+            name: "Package",
+            dependencies: []),
         .testTarget(
-            name: "DependenciesTests",
-            dependencies: ["Dependencies"])
-    ],
-    
-    swiftLanguageVersions: [.v5]
+            name: "PackageTests",
+            dependencies: ["Package"]),
+    ]
 )
