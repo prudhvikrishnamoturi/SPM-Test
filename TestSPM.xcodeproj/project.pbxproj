@@ -17,7 +17,6 @@
 		A4A756CE283B9347000B51BD /* TestSPMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A756CD283B9347000B51BD /* TestSPMTests.swift */; };
 		A4A756D8283B9347000B51BD /* TestSPMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A756D7283B9347000B51BD /* TestSPMUITests.swift */; };
 		A4A756DA283B9347000B51BD /* TestSPMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A756D9283B9347000B51BD /* TestSPMUITestsLaunchTests.swift */; };
-		A4A756E9283B963B000B51BD /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A756E8283B963B000B51BD /* RestManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		A4A756D3283B9347000B51BD /* TestSPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A756D7283B9347000B51BD /* TestSPMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSPMUITests.swift; sourceTree = "<group>"; };
 		A4A756D9283B9347000B51BD /* TestSPMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSPMUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A4A756E8283B963B000B51BD /* RestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
 		A4A756EA283B9724000B51BD /* Dependencies */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Dependencies; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +102,6 @@
 		A4A756B2283B9345000B51BD /* TestSPM */ = {
 			isa = PBXGroup;
 			children = (
-				A4A756E7283B962C000B51BD /* Source */,
 				A4A756B3283B9345000B51BD /* AppDelegate.swift */,
 				A4A756B5283B9345000B51BD /* SceneDelegate.swift */,
 				A4A756B7283B9345000B51BD /* ViewController.swift */,
@@ -133,14 +130,6 @@
 				A4A756D9283B9347000B51BD /* TestSPMUITestsLaunchTests.swift */,
 			);
 			path = TestSPMUITests;
-			sourceTree = "<group>";
-		};
-		A4A756E7283B962C000B51BD /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				A4A756E8283B963B000B51BD /* RestManager.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +266,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A756BE283B9345000B51BD /* TestSPM.xcdatamodeld in Sources */,
-				A4A756E9283B963B000B51BD /* RestManager.swift in Sources */,
 				A4A756B8283B9345000B51BD /* ViewController.swift in Sources */,
 				A4A756B4283B9345000B51BD /* AppDelegate.swift in Sources */,
 				A4A756B6283B9345000B51BD /* SceneDelegate.swift in Sources */,
