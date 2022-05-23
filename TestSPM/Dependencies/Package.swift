@@ -31,7 +31,7 @@ let package = Package(
         .testTarget(
             name: "DependenciesTests",
             dependencies: ["Dependencies"])
-    ]
+    ],
     
     swiftLanguageVersions: [.v5]
 )
