@@ -25,7 +25,6 @@ let package = Package(
         .target(
             name: "Dependencies",
             dependencies: ["RestManager"],
-            path: "Source",
             exclude: ["Info.plist"]
             ),
         .testTarget(
