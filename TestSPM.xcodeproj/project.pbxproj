@@ -51,7 +51,6 @@
 		A4A756D3283B9347000B51BD /* TestSPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A756D7283B9347000B51BD /* TestSPMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSPMUITests.swift; sourceTree = "<group>"; };
 		A4A756D9283B9347000B51BD /* TestSPMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSPMUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A4A756EA283B9724000B51BD /* Dependencies */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Dependencies; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +109,6 @@
 				A4A756C1283B9347000B51BD /* LaunchScreen.storyboard */,
 				A4A756C4283B9347000B51BD /* Info.plist */,
 				A4A756BC283B9345000B51BD /* TestSPM.xcdatamodeld */,
-				A4A756EA283B9724000B51BD /* Dependencies */,
 			);
 			path = TestSPM;
 			sourceTree = "<group>";
