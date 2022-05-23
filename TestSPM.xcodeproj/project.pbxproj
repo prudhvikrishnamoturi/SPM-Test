@@ -51,6 +51,7 @@
 		A4A756D3283B9347000B51BD /* TestSPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A756D7283B9347000B51BD /* TestSPMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSPMUITests.swift; sourceTree = "<group>"; };
 		A4A756D9283B9347000B51BD /* TestSPMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSPMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4A7570F283BAC9E000B51BD /* Dependencies */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dependencies; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		A4A756B2283B9345000B51BD /* TestSPM */ = {
 			isa = PBXGroup;
 			children = (
+				A4A7570F283BAC9E000B51BD /* Dependencies */,
 				A4A756B3283B9345000B51BD /* AppDelegate.swift */,
 				A4A756B5283B9345000B51BD /* SceneDelegate.swift */,
 				A4A756B7283B9345000B51BD /* ViewController.swift */,
